@@ -1,0 +1,17 @@
+model:
+  dir: "./MetaModels/Final/MetaNet_1x128_different_depth"
+  input_shape: 300  # input shape, change it according to your data
+  layers:
+    - type: "Linear"
+      in_features: 300  # Input shape
+      out_features: 128
+      activation: "ReLU"
+      dropout: 0.3
+
+    - type: "Linear"
+      in_features: 128
+      out_features: 150
+base_models:
+  list: "C:\\dis\\ProgressiveTransformersSLP\\meta_data\\DifferentDepth\\list_transformers.txt"
+data:
+  dir: "C:\\dis\\ProgressiveTransformersSLP\\meta_data\\DifferentDepth\\data"

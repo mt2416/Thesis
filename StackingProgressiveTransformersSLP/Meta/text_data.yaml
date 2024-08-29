@@ -1,0 +1,16 @@
+data:
+    src: "text"    # Source - Either Gloss->Pose or Text->Pose (gloss,text)
+    trg: "skels"    # Target - 3D body co-ordinates (skels)
+    files: "files"    # Filenames for each sequence
+
+    train: ./Data/phoenix-pre/train
+    dev: ./Data/phoenix-pre/dev
+    test: ./Data/phoenix-pre/test
+
+    max_sent_length: 300 # Max Sentence Length
+    skip_frames: 2   # Skip frames in the data, to reduce the data input size
+    
+    src_vocab: ./Data/src_vocab_Germany_word.txt
+    # src_vocab: ./Data/src_vocab_Germany_gloss.txt
+model:
+    trg_size: 150

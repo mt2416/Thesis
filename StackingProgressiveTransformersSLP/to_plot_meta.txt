@@ -1,0 +1,7 @@
+C:\dis\ProgressiveTransformersSLP\MetaModels\Final\MetaNet_2x64_different_depth
+C:\dis\ProgressiveTransformersSLP\MetaModels\Final\MetaNet_2x256_different_depth_T2P
+C:\dis\ProgressiveTransformersSLP\MetaModels\Final\MetaNet_1x64_different_width
+C:\dis\ProgressiveTransformersSLP\MetaModels\Final\MetaNet_1x256_different_width_T2P
+C:\dis\ProgressiveTransformersSLP\MetaModels\Final\MetaNet_1x256_different_dim
+C:\dis\ProgressiveTransformersSLP\MetaModels\Final\MetaNet_1x256_different_dim_T2P
+C:\dis\ProgressiveTransformersSLP\MetaModels\Final\MetaNet_1x256_different_source

@@ -1,0 +1,6 @@
+C:\dis\ProgressiveTransformersSLP\Configs\Final\T2P_2_8(512,2048).yaml
+C:\dis\ProgressiveTransformersSLP\Configs\Final\T2P_2_8(512,1024).yaml
+C:\dis\ProgressiveTransformersSLP\Configs\Final\T2P_2_8(1024,4096).yaml
+C:\dis\ProgressiveTransformersSLP\Configs\Final\T2P_2_16(512,4096).yaml
+C:\dis\ProgressiveTransformersSLP\Configs\Final\T2P_4_8(512,1024).yaml
+C:\dis\ProgressiveTransformersSLP\Configs\Final\T2P_4_8(512,2048).yaml

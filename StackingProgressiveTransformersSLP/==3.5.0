@@ -1,0 +1,61 @@
+[1mdiff --git a/requirements.txt b/requirements.txt[m
+[1mindex 94d83f4..3f51dec 100644[m
+[1m--- a/requirements.txt[m
+[1m+++ b/requirements.txt[m
+[36m@@ -1,37 +1,24 @@[m
+[31m-absl-py==0.8.1[m
+[32m+[m[32mabsl-py==0.12.0[m
+ alabaster==0.7.8[m
+[31m-apt-clone==0.2.1[m
+[31m-apt-xapian-index==0.47[m
+[31m-apturl==0.5.2[m
+ asn1crypto==0.24.0[m
+ astor==0.8.0[m
+ astroid==2.3.1[m
+ astropy==3.0[m
+ attrs==17.4.0[m
+ Babel==2.4.0[m
+[31m-bleach==2.1.2[m
+[31m-Brlapi==0.6.6[m
+ certifi==2019.9.11[m
+ chardet==3.0.4[m
+ cloudpickle==0.5.2[m
+[31m-command-not-found==0.3[m
+ configobj==5.0.6[m
+ cryptography==2.1.4[m
+[31m-cupshelpers==1.0[m
+ cycler==0.10.0[m
+ Cython==0.26.1[m
+ decorator==4.1.2[m
+[31m-defer==1.0.6[m
+[31m-devscripts===2.17.12ubuntu1.1[m
+[31m-distro-info===0.18ubuntu0.18.04.1[m
+ docutils==0.14[m
+ emcee==2.2.1[m
+[31m-entrypoints==0.2.3.post1[m
+[31m-fail2ban==0.10.2[m
+ future==0.18.1[m
+ gast==0.3.2[m
+ google-pasta==0.1.7[m
+[31m-gpg==1.10.0[m
+ grpcio==1.24.1[m
+ h5py==2.10.0[m
+ html5lib==0.999999999[m
+[36m@@ -53,17 +40,12 @@[m [mKeras-Preprocessing==1.1.0[m
+ keyring==10.6.0[m
+ keyrings.alt==3.0[m
+ kiwisolver==1.1.0[m
+[31m-language-selector==0.1[m
+[31m-launchpadlib==1.10.6[m
+ lazr.restfulclient==0.13.5[m
+ lazr.uri==1.0.3[m
+ lazy-object-proxy==1.4.2[m
+ logilab-common==1.4.1[m
+[31m-louis==3.5.0[m
+[31m-macaroonbakery==1.1.3[m
+ Mako==1.0.7[m
+ Markdown==3.1.1[m
+[31m-MarkupSafe==1.0[m
+ matplotlib==3.1.1[m
+ mccabe==0.6.1[m
+ mistune==0.8.3[m

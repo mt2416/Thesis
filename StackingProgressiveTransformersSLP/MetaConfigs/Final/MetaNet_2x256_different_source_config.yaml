@@ -1,0 +1,23 @@
+model:
+  dir: "./MetaModels/Final/MetaNet_2x256_different_source"
+  input_shape: 300  # input shape, change it according to your data
+  layers:
+    - type: "Linear"
+      in_features: 300  # Input shape
+      out_features: 256
+      activation: "ReLU"
+      dropout: 0.3
+
+    - type: "Linear"
+      in_features: 256
+      out_features: 256
+      activation: "ReLU"
+      dropout: 0.3
+
+    - type: "Linear"
+      in_features: 256
+      out_features: 150
+base_models:
+  list: "C:\\dis\\ProgressiveTransformersSLP\\meta_data\\DifferentSource\\list_transformers.txt"
+data:
+  dir: "C:\\dis\\ProgressiveTransformersSLP\\meta_data\\DifferentSource\\data"

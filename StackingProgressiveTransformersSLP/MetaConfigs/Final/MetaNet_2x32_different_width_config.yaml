@@ -1,0 +1,23 @@
+model:
+  dir: "./MetaModels/Final/MetaNet_2x32_different_width"
+  input_shape: 300  # input shape, change it according to your data
+  layers:
+    - type: "Linear"
+      in_features: 300  # Input shape
+      out_features: 32
+      activation: "ReLU"
+      dropout: 0.3
+
+    - type: "Linear"
+      in_features: 32
+      out_features: 32
+      activation: "ReLU"
+      dropout: 0.3
+
+    - type: "Linear"
+      in_features: 32
+      out_features: 150
+base_models:
+  list: "C:\\dis\\ProgressiveTransformersSLP\\meta_data\\DifferentWidth\\list_transformers.txt"
+data:
+  dir: "C:\\dis\\ProgressiveTransformersSLP\\meta_data\\DifferentWidth\\data"
